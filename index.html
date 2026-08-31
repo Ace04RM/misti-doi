@@ -300,11 +300,11 @@ cat > index.html <<'EOF'
 
         <form id="contactForm" action="https://formspree.io/f/xljejrdw" method="POST">
 
-            <input type="text" placeholder="Your name" required>
+            <input type="text" name="name" placeholder="Your name" required>
 
-            <input type="email" placeholder="Your email" required>
+            <input type="email" name="email placeholder="Your email" required>
 
-            <textarea placeholder="Tell us about your project..." required></textarea>
+            <textarea name="message" placeholder="Tell us about your project..." required></textarea>
 
             <button type="submit" class="primary-btn">
                 Send Enquiry →
