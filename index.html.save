@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NovaGrowth — Digital Marketing Agency</title>
+    <meta name="description" content="NovaGrowth helps brands grow through SEO, social media, advertising and data-driven digital marketing.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background decoration -->
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                Nova<span>Growth</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+            <nav id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-btn">Let's Talk</a>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content reveal">
+
+                <div class="badge">
+                    🚀 Digital Growth Partner
+                </div>
+
+                <h1>
+                    Turn Your Brand Into
+                    <span>a Growth Machine.</span>
+                </h1>
+
+                <p>
+                    We help ambitious businesses attract more customers,
+                    increase sales and build powerful digital brands.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="primary-btn">
+                        Start Growing →
+                    </a>
+
+                    <a href="#services" class="secondary-btn">
+                        Explore Services
+                    </a>
+                </div>
+
+                <div class="trust">
+                    <div class="avatars">
+                        <div>👨</div>
+                        <div>👩</div>
+                        <div>👨</div>
+                        <div>👩</div>
+                    </div>
+
+                    <div>
+                        <strong>500+</strong>
+                        <small>Businesses growing with us</small>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- HERO CARD -->
+            <div class="hero-visual reveal">
+
+                <div class="dashboard-card">
+
+                    <div class="dashboard-top">
+                        <span>Growth Analytics</span>
+                        <span class="live">● Live</span>
+                    </div>
+
+                    <div class="growth-number">
+                        +247.8%
+                    </div>
+
+                    <p>Revenue Growth</p>
+
+                    <div class="chart">
+
+                        <div class="bar" style="height:35%"></div>
+                        <div class="bar" style="height:48%"></div>
+                        <div class="bar" style="height:42%"></div>
+                        <div class="bar" style="height:65%"></div>
+                        <div class="bar" style="height:58%"></div>
+                        <div class="bar" style="height:82%"></div>
+                        <div class="bar active" style="height:96%"></div>
+
+                    </div>
+
+                    <div class="dashboard-stats">
+
+                        <div>
+                            <strong>84K</strong>
+                            <span>Visitors</span>
+                        </div>
+
+                        <div>
+                            <strong>12.6K</strong>
+                            <span>Leads</span>
+                        </div>
+
+                        <div>
+                            <strong>8.4%</strong>
+                            <span>Conversion</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <div class="badge">
+                    What We Do
+                </div>
+
+                <h2>
+                    Everything You Need
+                    <span>To Grow Online.</span>
+                </h2>
+
+                <p>
+                    Powerful digital marketing strategies designed
+                    to turn attention into customers.
+                </p>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card reveal">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO</h3>
+                    <p>
+                        Increase your visibility on search engines
+                        and attract high-quality organic traffic.
+                    </p>
+                    <a href="#contact">Learn More →</a>
+                </div>
+
+
+                <div class="service-card reveal">
+                    <div class="service-icon">📱</div>
+                    <h3>Social Media</h3>
+                    <p>
+                        Build a powerful social presence that
+                        connects your brand with your audience.
+                    </p>
+                    <a href="#contact">Learn More →</a>
+                </div>
+
+
+                <div class="service-card reveal">
+                    <div class="service-icon">🎯</div>
+                    <h3>Paid Advertising</h3>
+                    <p>
+                        Generate targeted leads and sales with
+                        data-driven advertising campaigns.
+                    </p>
+                    <a href="#contact">Learn More →</a>
+                </div>
+
+
+                <div class="service-card reveal">
+                    <div class="service-icon">✍️</div>
+                    <h3>Content Marketing</h3>
+                    <p>
+                        Create content that educates, engages and
+                        converts your audience.
+                    </p>
+                    <a href="#contact">Learn More →</a>
+                </div>
+
+
+                <div class="service-card reveal">
+                    <div class="service-icon">📊</div>
+                    <h3>Analytics</h3>
+                    <p>
+                        Understand your customers through data
+                        and make smarter marketing decisions.
+                    </p>
+                    <a href="#contact">Learn More →</a>
+                </div>
+
+
+                <div class="service-card reveal">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI Marketing</h3>
+                    <p>
+                        Use AI-powered tools to automate workflows
+                        and accelerate your marketing.
+                    </p>
+                    <a href="#contact">Learn More →</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+
+        <div class="container about-grid">
+
+            <div class="about-visual reveal">
+
+                <div class="about-card">
+
+                    <div class="circle">
+                        10X
+                    </div>
+
+                    <h3>Think Bigger.</h3>
+
+                    <p>
+                        Your growth is our mission.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content reveal">
+
+                <div class="badge">
+                    Why NovaGrowth?
+                </div>
+
+                <h2>
+                    Marketing That Is
+                    <span>Built Around Results.</span>
+                </h2>
+
+                <p>
+                    We don't believe in random marketing.
+                    Every campaign starts with research,
+                    strategy and measurable goals.
+                </p>
+
+                <div class="check-list">
+
+                    <div>✓ Data-driven strategies</div>
+                    <div>✓ Transparent reporting</div>
+                    <div>✓ Dedicated growth team</div>
+                    <div>✓ Customized campaigns</div>
+
+                </div>
+
+                <a href="#contact" class="primary-btn">
+                    Work With Us →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- STATS -->
+    <section class="stats-section">
+
+        <div class="container stats-grid">
+
+            <div class="stat reveal">
+                <strong>500+</strong>
+                <span>Clients</span>
+            </div>
+
+            <div class="stat reveal">
+                <strong>2.4M+</strong>
+                <span>Leads Generated</span>
+            </div>
+
+            <div class="stat reveal">
+                <strong>94%</strong>
+                <span>Client Retention</span>
+            </div>
+
+            <div class="stat reveal">
+                <strong>8+</strong>
+                <span>Years Experience</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <div class="badge">
+                    Client Stories
+                </div>
+
+                <h2>
+                    Loved By
+                    <span>Growing Brands.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="testimonial-grid">
+
+                <div class="testimonial reveal">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "NovaGrowth completely changed our online
+                        presence. Our leads increased dramatically
+                        within a few months."
+                    </p>
+
+                    <div class="person">
+                        <div class="person-avatar">R</div>
+                        <div>
+                            <strong>Rahul Mehta</strong>
+                            <span>Founder, TechNova</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="testimonial reveal">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Their strategy is simple, transparent and
+                        focused on results. Our advertising ROI has
+                        never been better."
+                    </p>
+
+                    <div class="person">
+                        <div class="person-avatar">A</div>
+                        <div>
+                            <strong>Ananya Roy</strong>
+                            <span>CEO, UrbanLeaf</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="testimonial reveal">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "The team feels like an extension of our
+                        company. Professional, creative and extremely
+                        responsive."
+                    </p>
+
+                    <div class="person">
+                        <div class="person-avatar">S</div>
+                        <div>
+                            <strong>Samir Khan</strong>
+                            <span>Founder, FitCore</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRICING -->
+    <section class="section pricing" id="pricing">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+
+                <div class="badge">
+                    Simple Pricing
+                </div>
+
+                <h2>
+                    Choose Your
+                    <span>Growth Plan.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="pricing-grid">
+
+                <div class="price-card reveal">
+
+                    <h3>Starter</h3>
+
+                    <p>For small businesses</p>
+
+                    <div class="price">
+                        ₹9,999
+                        <span>/month</span>
+                    </div>
+
+                    <ul>
+                        <li>✓ Social Media Management</li>
+                        <li>✓ Basic SEO</li>
+                        <li>✓ Monthly Report</li>
+                        <li>✓ Content Strategy</li>
+                    </ul>
+
+                    <a href="#contact" class="secondary-btn">
+                        Get Started
+                    </a>
+
+                </div>
+
+
+                <div class="price-card popular reveal">
+
+                    <div class="popular-label">
+                        MOST POPULAR
+                    </div>
+
+                    <h3>Growth</h3>
+
+                    <p>For growing businesses</p>
+
+                    <div class="price">
+                        ₹24,999
+                        <span>/month</span>
+                    </div>
+
+                    <ul>
+                        <li>✓ Everything in Starter</li>
+                        <li>✓ Google & Meta Ads</li>
+                        <li>✓ Advanced SEO</li>
+                        <li>✓ Conversion Optimization</li>
+                        <li>✓ Weekly Reports</li>
+                    </ul>
+
+                    <a href="#contact" class="primary-btn">
+                        Start Growing
+                    </a>
+
+                </div>
+
+
+                <div class="price-card reveal">
+
+                    <h3>Scale</h3>
+
+                    <p>For ambitious brands</p>
+
+                    <div class="price">
+                        ₹49,999
+                        <span>/month</span>
+                    </div>
+
+                    <ul>
+                        <li>✓ Everything in Growth</li>
+                        <li>✓ Dedicated Strategist</li>
+                        <li>✓ AI Automation</li>
+                        <li>✓ Advanced Analytics</li>
+                        <li>✓ Priority Support</li>
+                    </ul>
+
+                    <a href="#contact" class="secondary-btn">
+                        Talk To Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FAQ -->
+    <section class="section">
+
+        <div class="container faq-container">
+
+            <div class="section-heading reveal">
+
+                <div class="badge">
+                    FAQ
+                </div>
+
+                <h2>
+                    Frequently Asked
+                    <span>Questions.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="faq">
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+                        How long does it take to see results?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        Most campaigns begin showing measurable
+                        improvements within the first few months.
+                        Results vary depending on the industry,
+                        competition and campaign goals.
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+                        Do you work with small businesses?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        Yes. Our plans are designed for businesses
+                        of different sizes and growth stages.
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+                        Can you manage our social media?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        Yes. We can help with strategy, content,
+                        advertising, analytics and social media
+                        management.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+        <div class="container contact-grid">
+
+            <div class="contact-content reveal">
+
+                <div class="badge">
+                    Let's Work Together
+                </div>
+
+                <h2>
+                    Ready To
+                    <span>Grow?</span>
+                </h2>
+
+                <p>
+                    Tell us about your business and we'll show
+                    you what's possible.
+                </p>
+
+                <div class="contact-info">
+
+                    <div>📧 hello@novagrowth.com</div>
+                    <div>📱 +91 98765 43210</div>
+                    <div>📍 Kolkata, India</div>
+
+                </div>
+
+            </div>
+
+
+            <form class="contact-form reveal" id="contactForm">
+
+                <div class="input-row">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        required
+                    >
+
+                </div>
+
+                <input
+                    type="text"
+                    placeholder="Company / Business"
+                >
+
+                <select>
+
+                    <option value="">
+                        What do you need help with?
+                    </option>
+
+                    <option>SEO</option>
+                    <option>Social Media</option>
+                    <option>Paid Advertising</option>
+                    <option>Content Marketing</option>
+                    <option>AI Marketing</option>
+
+                </select>
+
+                <textarea
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="primary-btn">
+                    Send Message →
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="#" class="logo">
+                    Nova<span>Growth</span>
+                </a>
+
+                <p>
+                    Helping ambitious brands grow
+                    in the digital world.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 NovaGrowth. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #07070c;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: min(1120px, 90%);
+    margin: auto;
+}
+
+
+/* BACKGROUND */
+
+.glow {
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.12;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.glow-1 {
+    background: #7c3aed;
+    top: 100px;
+    left: -150px;
+}
+
+.glow-2 {
+    background: #06b6d4;
+    right: -150px;
+    top: 600px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(7, 7, 12, 0.75);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.nav-container {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #8b5cf6;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #aaa;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.nav-btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #7c3aed;
+    font-size: 14px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.badge {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 50px;
+    background: rgba(124,58,237,0.12);
+    border: 1px solid rgba(139,92,246,0.3);
+    color: #b9a1ff;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(45px, 6vw, 75px);
+    line-height: 1.05;
+    letter-spacing: -3px;
+    margin-bottom: 25px;
+}
+
+.hero h1 span,
+.section-heading span,
+.about-content h2 span,
+.contact-content h2 span {
+    background: linear-gradient(90deg, #8b5cf6, #22d3ee);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-content > p {
+    color: #a1a1aa;
+    font-size: 17px;
+    max-width: 570px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 9px;
+    font-weight: 600;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background: linear-gradient(90deg, #7c3aed, #2563eb);
+    color: white;
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(124,58,237,0.3);
+}
+
+.secondary-btn {
+    border: 1px solid #292933;
+    color: #ddd;
+    background: rgba(255,255,255,0.02);
+}
+
+.secondary-btn:hover {
+    background: rgba(255,255,255,0.06);
+}
+
+.trust {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.avatars {
+    display: flex;
+}
+
+.avatars div {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #202027;
+    border: 2px solid #07070c;
+    display: grid;
+    place-items: center;
+    margin-left: -7px;
+}
+
+.avatars div:first-child {
+    margin-left: 0;
+}
+
+.trust strong {
+    display: block;
+}
+
+.trust small {
+    color: #777;
+}
+
+
+/* DASHBOARD */
+
+.hero-visual {
+    perspective: 1000px;
+}
+
+.dashboard-card {
+    padding: 28px;
+    border-radius: 20px;
+    background: linear-gradient(
+        145deg,
+        rgba(255,255,255,0.08),
+        rgba(255,255,255,0.025)
+    );
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+    animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0%,100% {
+        transform: translateY(0) rotateY(-3deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotateY(3deg);
+    }
+}
+
+.dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.live {
+    color: #34d399;
+}
+
+.growth-number {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.dashboard-card > p {
+    color: #777;
+}
+
+.chart {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    gap: 12px;
+    margin: 30px 0;
+    border-bottom: 1px solid #292933;
+}
+
+.bar {
+    flex: 1;
+    background: #4c1d95;
+    border-radius: 5px 5px 0 0;
+    opacity: 0.7;
+}
+
+.bar.active {
+    background: linear-gradient(#8b5cf6, #06b6d4);
+    opacity: 1;
+}
+
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.dashboard-stats div {
+    padding: 12px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 8px;
+}
+
+.dashboard-stats strong,
+.dashboard-stats span {
+    display: block;
+}
+
+.dashboard-stats span {
+    color: #777;
+    font-size: 11px;
+}
+
+
+/* SECTIONS */
+
+.section {
+    padding: 110px 0;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 60px;
+}
+
+.section-heading h2,
+.about-content h2,
+.contact-content h2 {
+    font-size: clamp(35px,5vw,55px);
+    line-height: 1.1;
+    letter-spacing: -2px;
+    margin-bottom: 18px;
+}
+
+.section-heading p,
+.about-content > p,
+.contact-content > p {
+    color: #888;
+}
+
+
+/* SERVICES */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+}
+
+.service-card {
+    padding: 30px;
+    border: 1px solid #202027;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.02);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #5b21b6;
+    background: rgba(124,58,237,0.05);
+}
+
+.service-icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    color: #a78bfa;
+    font-size: 13px;
+}
+
+
+/* ABOUT */
+
+.about {
+    background: rgba(255,255,255,0.015);
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-card {
+    height: 400px;
+    border-radius: 20px;
+    background: linear-gradient(145deg,#171124,#0d1720);
+    border: 1px solid #292933;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(135deg,#7c3aed,#06b6d4);
+    margin-bottom: 25px;
+}
+
+.about-card p {
+    color: #777;
+}
+
+.check-list {
+    margin: 25px 0;
+    display: grid;
+    gap: 12px;
+    color: #ccc;
+}
+
+
+/* STATS */
+
+.stats-section {
+    padding: 60px 0;
+    border-top: 1px solid #202027;
+    border-bottom: 1px solid #202027;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+
+.stat strong {
+    display: block;
+    font-size: 35px;
+}
+
+.stat span {
+    color: #777;
+}
+
+
+/* TESTIMONIALS */
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.testimonial {
+    padding: 28px;
+    border: 1px solid #202027;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.02);
+}
+
+.stars {
+    color: #fbbf24;
+    margin-bottom: 20px;
+}
+
+.testimonial > p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.person-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #312e81;
+    display: grid;
+    place-items: center;
+}
+
+.person strong,
+.person span {
+    display: block;
+}
+
+.person span {
+    color: #777;
+    font-size: 11px;
+}
+
+
+/* PRICING */
+
+.pricing {
+    background: rgba(255,255,255,0.015);
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.price-card {
+    padding: 35px;
+    border: 1px solid #24242c;
+    border-radius: 18px;
+    position: relative;
+    background: #0b0b11;
+}
+
+.price-card.popular {
+    border-color: #7c3aed;
+    transform: scale(1.03);
+}
+
+.popular-label {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #7c3aed;
+    padding: 5px 12px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+
+.price-card > p {
+    color: #777;
+    font-size: 13px;
+}
+
+.price {
+    font-size: 34px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+.price span {
+    color: #777;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.price-card ul {
+    list-style: none;
+    color: #aaa;
+    display: grid;
+    gap: 12px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.price-card .primary-btn,
+.price-card .secondary-btn {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* FAQ */
+
+.faq-container {
+    max-width: 800px;
+}
+
+.faq {
+    display: grid;
+    gap: 10px;
+}
+
+.faq-item {
+    border: 1px solid #202027;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 20px 20px;
+    color: #777;
+    font-size: 14px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-question span {
+    transform: rotate(45deg);
+}
+
+
+/* CONTACT */
+
+.contact {
+    background: linear-gradient(
+        120deg,
+        rgba(124,58,237,0.08),
+        rgba(6,182,212,0.04)
+    );
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.contact-info {
+    margin-top: 30px;
+    display: grid;
+    gap: 15px;
+    color: #aaa;
+}
+
+.contact-form {
+    padding: 30px;
+    border: 1px solid #292933;
+    border-radius: 18px;
+    background: rgba(0,0,0,0.3);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 14px;
+    background: #111118;
+    border: 1px solid #292933;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #7c3aed;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.contact-form .primary-btn {
+    width: 100%;
+}
+
+#formMessage {
+    text-align: center;
+    color: #34d399;
+    margin-top: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #202027;
+    padding: 50px 0 20px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer p {
+    color: #777;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    color: #777;
+    font-size: 13px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    color: #555;
+    border-top: 1px solid #202027;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+
+/* ANIMATION */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background: #0b0b11;
+        flex-direction: column;
+        gap: 20px;
+        border-bottom: 1px solid #222;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .hero-grid,
+    .about-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .hero h1 {
+        letter-spacing: -2px;
+    }
+
+    .services-grid,
+    .testimonial-grid,
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .price-card.popular {
+        transform: none;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2,1fr);
+        gap: 35px;
+    }
+
+    .about-visual {
+        order: 2;
+    }
+
+    .input-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .dashboard-card {
+        padding: 20px;
+    }
+
+    .growth-number {
+        font-size: 38px;
+    }
+
+    .chart {
+        height: 150px;
+        gap: 7px;
+    }
+
+}
+// MOBILE MENU
+
+const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.getElementById("navMenu");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+});
+
+
+// CLOSE MOBILE MENU AFTER CLICKING A LINK
+
+document.querySelectorAll("#navMenu a").forEach(link => {
+
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("open");
+    });
+
+});
+
+
+// SCROLL REVEAL ANIMATION
+
+const revealElements = document.querySelectorAll(".reveal");
+
+const revealObserver = new IntersectionObserver(
+
+    (entries) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("show");
+
+            }
+
+        });
+
+    },
+
+    {
+        threshold: 0.15
+    }
+
+);
+
+revealElements.forEach(element => {
+
+    revealObserver.observe(element);
+
+});
+
+
+// FAQ
+
+const faqQuestions =
+    document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach(question => {
+
+    question.addEventListener("click", () => {
+
+        const item = question.parentElement;
+
+        document.querySelectorAll(".faq-item").forEach(faq => {
+
+            if (faq !== item) {
+                faq.classList.remove("active");
+            }
+
+        });
+
+        item.classList.toggle("active");
+
+    });
+
+});
+
+
+// CONTACT FORM
+
+const contactForm =
+    document.getElementById("contactForm");
+
+const formMessage =
+    document.getElementById("formMessage");
+
+contactForm.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    formMessage.textContent =
+        "✓ Thanks! Your message has been received.";
+
+    contactForm.reset();
+
+});
+
+
+// BUTTON CLICK ANIMATION
+
+document.querySelectorAll(".primary-btn, .secondary-btn")
+.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        button.style.transform = "scale(0.96)";
+
+        setTimeout(() => {
+
+            button.style.transform = "";
+
+        }, 150);
+
+    });
+
+});
+
+
+// SIMPLE NUMBER ANIMATION
+
+const stats = document.querySelectorAll(".stat strong");
+
+const statsObserver = new IntersectionObserver(
+
+    entries => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+               
+
+
+
+
+
+
+
+// MOBILE MENU
+
+const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.getElementById("navMenu");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+});
+
+
+// CLOSE MOBILE MENU AFTER CLICKING A LINK
+
+document.querySelectorAll("#navMenu a").forEach(link => {
+
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("open");
+    });
+
+});
+
+
+// SCROLL REVEAL ANIMATION
+
+const revealElements = document.querySelectorAll(".reveal");
+
+const revealObserver = new IntersectionObserver(
+
+    (entries) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("show");
+
+            }
+
+        });
+
+    },
+
+    {
+        threshold: 0.15
+    }
+
+);
+
+revealElements.forEach(element => {
+
+    revealObserver.observe(element);
+
+});
+
+
+// FAQ
+
+const faqQuestions =
+    document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach(question => {
+
+    question.addEventListener("click", () => {
+
+        const item = question.parentElement;
+
+        document.querySelectorAll(".faq-item").forEach(faq => {
+
+            if (faq !== item) {
+                faq.classList.remove("active");
+            }
+
+        });
+
+        item.classList.toggle("active");
+
+    });
+
+});
+
+
+// CONTACT FORM
+
+const contactForm =
+    document.getElementById("contactForm");
+
+const formMessage =
+    document.getElementById("formMessage");
+
+contactForm.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    formMessage.textContent =
+        "✓ Thanks! Your message has been received.";
+
+    contactForm.reset();
+
+});
+
+
+// BUTTON CLICK ANIMATION
+
+document.querySelectorAll(".primary-btn, .secondary-btn")
+.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        button.style.transform = "scale(0.96)";
+
+        setTimeout(() => {
+
+            button.style.transform = "";
+
+        }, 150);
+
+    });
+
+});
+
+
+// SIMPLE NUMBER ANIMATION
+
+const stats = document.querySelectorAll(".stat strong");
+
+const statsObserver = new IntersectionObserver(
+
+    entries => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.style.opacity = "1";
+
+            }
+
+        });
+
+    }
+
+);
+
+stats.forEach(stat => {
+
+    s
+
+^X
+
+
