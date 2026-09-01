@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="galaxy">
 
 <header class="navbar">
     <a href="index.html" class="logo">মিষ্টি দই</a>
@@ -245,6 +245,36 @@
 
 </main>
 
+<script>
+// Twinkling stars
+for (let i = 0; i < 60; i++) {
+    const star = document.createElement("div");
+    star.className = "twinkle";
+    const size = Math.random() * 2 + 1;
+    star.style.width = size + "px";
+    star.style.height = size + "px";
+    star.style.top = Math.random() * 100 + "vh";
+    star.style.left = Math.random() * 100 + "vw";
+    star.style.animationDuration = (2 + Math.random() * 3) + "s";
+    star.style.animationDelay = (Math.random() * 3) + "s";
+    document.body.appendChild(star);
+}
+
+// Occasional shooting stars
+function launchShootingStar() {
+    const star = document.createElement("div");
+    star.className = "shooting-star";
+    star.style.top = Math.random() * 40 + "vh";
+    star.style.left = Math.random() * 60 + "vw";
+    document.body.appendChild(star);
+    setTimeout(() => star.remove(), 2600);
+}
+setInterval(launchShootingStar, 4000);
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
 <script src="script.js"></script>
 </body>
 </html>
