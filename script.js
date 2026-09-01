@@ -70,3 +70,15 @@ const counterObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.5 });
 
 counters.forEach(c => counterObserver.observe(c));
+// Floating background particles
+const particleCount = 22;
+for (let i = 0; i < particleCount; i++) {
+    const p = document.createElement("div");
+    p.className = "particle";
+    p.style.left = Math.random() * 100 + "vw";
+    p.style.animationDuration = (12 + Math.random() * 12) + "s";
+    p.style.animationDelay = (Math.random() * 12) + "s";
+    p.style.opacity = 0.3 + Math.random() * 0.4;
+    document.body.appendChild(p);
+}
+
