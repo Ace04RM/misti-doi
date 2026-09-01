@@ -572,7 +572,7 @@ border-right:0;border-bottom:1px solid var(--border)
   content:"";position:absolute;top:-60px;left:50%;
   transform:translateX(-50%);width:400px;height:400px;
   background:radial-gradient(circle,rgba(140,100,255,.18),transparent 70%);
-  filter:blur(40px);z-index:-1;
+  filter:blur(20px);z-index:-1;
   animation:floatGlow 6s ease-in-out infinite
 }
 @keyframes floatGlow{
@@ -618,8 +618,7 @@ body.galaxy::after{
   background:
     radial-gradient(ellipse 60% 40% at 20% 15%,rgba(140,90,255,.25),transparent 60%),
     radial-gradient(ellipse 50% 35% at 85% 25%,rgba(80,130,255,.2),transparent 60%),
-    radial-gradient(ellipse 55% 40% at 50% 85%,rgba(180,90,220,.18),transparent 60%);
-  filter:blur(10px);
+    radial-gradient(ellipse 55% 40% at 50% 85%,rgba(180,90,220,.18),transparent 60%);;
   animation:auroraShift 20s ease-in-out infinite alternate
 }
 
@@ -651,3 +650,13 @@ body.galaxy::after{
   85%{opacity:1}
   100%{transform:translate(500px,300px) rotate(-30deg);opacity:0;width:120px}
 }
+.particle,.twinkle,.shooting-star{
+  will-change:transform,opacity
+}
+
+@media (prefers-reduced-motion: reduce){
+  .particle,.twinkle,.shooting-star,body::before,body::after,body.galaxy::before,body.galaxy::after{
+    animation:none!important
+  }
+}
+

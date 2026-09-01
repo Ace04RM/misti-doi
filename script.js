@@ -71,7 +71,7 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 counters.forEach(c => counterObserver.observe(c));
 // Floating background particles
-const particleCount = 22;
+const particleCount = 10;
 for (let i = 0; i < particleCount; i++) {
     const p = document.createElement("div");
     p.className = "particle";

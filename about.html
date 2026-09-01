@@ -247,7 +247,7 @@
 
 <script>
 // Twinkling stars
-for (let i = 0; i < 60; i++) {
+for (let i = 0; i < 30; i++) {
     const star = document.createElement("div");
     star.className = "twinkle";
     const size = Math.random() * 2 + 1;
@@ -269,7 +269,7 @@ function launchShootingStar() {
     document.body.appendChild(star);
     setTimeout(() => star.remove(), 2600);
 }
-setInterval(launchShootingStar, 4000);
+setInterval(launchShootingStar, 7000);
 </script>
 
 <script src="script.js"></script>
