@@ -485,3 +485,70 @@ border-right:0;border-bottom:1px solid var(--border)
   .team-grid{grid-template-columns:1fr}
 }
 
+/* Scroll reveal */
+.reveal{
+  opacity:0;transform:translateY(40px);
+  transition:opacity .8s ease, transform .8s ease;
+  transition-delay:var(--d,0s)
+}
+.reveal.show{opacity:1;transform:translateY(0)}
+
+/* Story stat cards get a subtle glow pulse */
+.story-stats div{
+  position:relative;overflow:hidden
+}
+.story-stats div::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(circle at 50% 0%,rgba(150,110,255,.15),transparent 70%);
+  opacity:0;transition:opacity .4s
+}
+.story-stats div:hover::before{opacity:1}
+.story-stats div{transition:transform .3s}
+.story-stats div:hover{transform:translateY(-5px)}
+
+/* Value cards float on hover with icon rotation */
+.value-card .icon{
+  display:inline-block;transition:transform .4s ease
+}
+.value-card:hover .icon{
+  transform:rotate(15deg) scale(1.15)
+}
+
+/* Team card avatar pulse ring */
+.team-avatar{
+  position:relative
+}
+.team-avatar::after{
+  content:"";position:absolute;inset:-6px;border-radius:50%;
+  border:1px solid rgba(150,110,255,.4);
+  animation:pulseRing 2.4s ease-out infinite
+}
+@keyframes pulseRing{
+  0%{transform:scale(.9);opacity:1}
+  100%{transform:scale(1.4);opacity:0}
+}
+
+/* Animated gradient text on hero span */
+.about-hero h1 span{
+  background-size:200% auto;
+  animation:gradientShift 4s ease infinite
+}
+@keyframes gradientShift{
+  0%{background-position:0% center}
+  50%{background-position:100% center}
+  100%{background-position:0% center}
+}
+
+/* Floating background accent */
+.about-hero{position:relative}
+.about-hero::before{
+  content:"";position:absolute;top:-60px;left:50%;
+  transform:translateX(-50%);width:400px;height:400px;
+  background:radial-gradient(circle,rgba(140,100,255,.18),transparent 70%);
+  filter:blur(40px);z-index:-1;
+  animation:floatGlow 6s ease-in-out infinite
+}
+@keyframes floatGlow{
+  0%,100%{transform:translate(-50%,0)}
+  50%{transform:translate(-50%,20px)}
+}

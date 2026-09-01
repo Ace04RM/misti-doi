@@ -30,3 +30,43 @@ cards.forEach(card => {
     card.style.transition = "opacity .6s ease, transform .6s ease";
     observer.observe(card);
 });
+// Scroll reveal for About page
+const revealEls = document.querySelectorAll(".reveal");
+const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+}, { threshold: 0.15 });
+
+revealEls.forEach(el => revealObserver.observe(el));
+
+
+// Animated number counters
+const counters = document.querySelectorAll(".counter");
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = parseFloat(el.dataset.target);
+            const decimals = parseInt(el.dataset.decimal) || 0;
+            let current = 0;
+            const step = target / 60;
+
+            const update = () => {
+                current += step;
+                if (current >= target) {
+                    el.textContent = target.toFixed(decimals);
+                } else {
+                    el.textContent = current.toFixed(decimals);
+                    requestAnimationFrame(update);
+                }
+            };
+            update();
+            counterObserver.unobserve(el);
+        }
+    });
+}, { threshold: 0.5 });
+
+counters.forEach(c => counterObserver.observe(c));
