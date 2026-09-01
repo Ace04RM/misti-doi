@@ -406,3 +406,82 @@ border-right:0;border-bottom:1px solid var(--border)
 .card-two{left:-5px}
 
 }
+.about-hero{
+  padding-top:170px;text-align:center;max-width:800px;margin:auto
+}
+
+.about-hero h1{
+  font-size:clamp(38px,6vw,64px);margin:15px 0 20px;letter-spacing:-2px
+}
+
+.about-hero>p{color:var(--muted);font-size:17px}
+
+.story{
+  display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center
+}
+
+.story-content h2{
+  font-size:clamp(32px,4.5vw,50px);margin:15px 0 20px;letter-spacing:-2px
+}
+
+.story-content p{color:var(--muted);margin-bottom:16px}
+
+.story-stats{
+  display:grid;grid-template-columns:1fr 1fr;gap:20px
+}
+
+.story-stats div{
+  padding:25px;border:1px solid var(--border);border-radius:16px;
+  background:linear-gradient(145deg,#111117,#0c0c10)
+}
+
+.story-stats strong{display:block;font-size:30px}
+.story-stats small{color:var(--muted)}
+
+.values-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:15px
+}
+
+.value-card{
+  padding:28px;border:1px solid var(--border);border-radius:16px;
+  background:linear-gradient(145deg,#111117,#0c0c10);transition:.3s
+}
+
+.value-card:hover{
+  transform:translateY(-6px);border-color:rgba(150,110,255,.5)
+}
+
+.value-card h3{font-size:17px;margin:16px 0 8px}
+.value-card p{color:var(--muted);font-size:13px}
+
+.team-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:600px;margin:auto
+}
+
+.team-card{
+  padding:35px;text-align:center;border:1px solid var(--border);
+  border-radius:18px;background:linear-gradient(145deg,#111117,#0c0c10)
+}
+
+.team-avatar{
+  width:65px;height:65px;margin:0 auto 16px;border-radius:50%;
+  display:grid;place-items:center;font-weight:bold;font-size:18px;
+  background:linear-gradient(135deg,#8e5fff,#4e86ff)
+}
+
+.team-card h3{font-size:17px;margin-bottom:4px}
+.team-card small{color:var(--muted)}
+
+.active-link{color:white!important}
+
+@media(max-width:900px){
+  .story{grid-template-columns:1fr}
+  .values-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:600px){
+  .story-stats{grid-template-columns:1fr}
+  .values-grid{grid-template-columns:1fr}
+  .team-grid{grid-template-columns:1fr}
+}
+
