@@ -11,7 +11,6 @@ body::before{
     linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
     linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
   background-size:48px 48px;
-  mask-image:radial-gradient(ellipse 80% 60% at 50% 20%,black 40%,transparent 90%)
 }
 
 body::after{
@@ -43,7 +42,7 @@ a{text-decoration:none;color:inherit}
 .navbar{
 height:76px;padding:0 7%;display:flex;align-items:center;
 justify-content:space-between;position:fixed;top:0;left:0;right:0;
-z-index:100;background:rgba(7,7,10,.8);backdrop-filter:blur(18px);
+z-index:100;background:rgba(7,7,10,.95);
 border-bottom:1px solid var(--border)
 }
 
@@ -659,4 +658,9 @@ body.galaxy::after{
     animation:none!important
   }
 }
+
+body::before,body::after,body.galaxy::before,body.galaxy::after{
+  transform:translateZ(0)
+}
+
 
