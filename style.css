@@ -2088,13 +2088,6 @@ EOF
   display:inline-block;background:linear-gradient(135deg,var(--purple),var(--blue));
   padding:12px 20px;border-radius:9px;font-size:13px;font-weight:bold
 }
-.floating-result{
-  position:absolute;background:#15151d;border:1px solid var(--border);
-  padding:14px 18px;border-radius:12px;text-align:center;z-index:3;
-  box-shadow:0 15px 40px rgba(0,0,0,.4)
-}
-.result-a{top:10px;left:-10px}
-.result-b{bottom:10px;right:-10px}
 .floating-result strong{display:block;font-size:20px;color:var(--purple)}
 .floating-result small{color:var(--muted);font-size:11px}
 
