@@ -60,6 +60,53 @@ cat > portfolio.html <<'EOF'
 
 </section>
 
+<!-- STATS BAR -->
+<section class="portfolio-stats reveal">
+    <div><strong class="counter" data-target="60">0</strong><span>+</span><small>Projects Completed</small></div>
+    <div><strong class="counter" data-target="35">0</strong><span>+</span><small>Happy Clients</small></div>
+    <div><strong class="counter" data-target="4">0</strong><span>yrs</span><small>Combined Experience</small></div>
+    <div><strong class="counter" data-target="98">0</strong><span>%</span><small>Client Retention</small></div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="trust-strip reveal">
+    <p>TRUSTED BY BRANDS THAT VALUE GROWTH</p>
+    <div class="trust-strip-row">
+        <span>VERTEX</span><span>ORBIT</span><span>MONARCH</span><span>APEX</span><span>NOVA</span>
+    </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="portfolio-stats reveal">
+    <div><strong class="counter" data-target="60">0</strong><span>+</span><small>Projects Completed</small></div>
+    <div><strong class="counter" data-target="35">0</strong><span>+</span><small>Happy Clients</small></div>
+    <div><strong class="counter" data-target="4">0</strong><span>yrs</span><small>Combined Experience</small></div>
+    <div><strong class="counter" data-target="98">0</strong><span>%</span><small>Client Retention</small></div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="trust-strip reveal">
+    <p>TRUSTED BY BRANDS THAT VALUE GROWTH</p>
+    <div class="trust-strip-row">
+        <span>VERTEX</span><span>ORBIT</span><span>MONARCH</span><span>APEX</span><span>NOVA</span>
+    </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="portfolio-stats reveal">
+    <div><strong class="counter" data-target="60">0</strong><span>+</span><small>Projects Completed</small></div>
+    <div><strong class="counter" data-target="35">0</strong><span>+</span><small>Happy Clients</small></div>
+    <div><strong class="counter" data-target="4">0</strong><span>yrs</span><small>Combined Experience</small></div>
+    <div><strong class="counter" data-target="98">0</strong><span>%</span><small>Client Retention</small></div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="trust-strip reveal">
+    <p>TRUSTED BY BRANDS THAT VALUE GROWTH</p>
+    <div class="trust-strip-row">
+        <span>VERTEX</span><span>ORBIT</span><span>MONARCH</span><span>APEX</span><span>NOVA</span>
+    </div>
+</section>
 
 <!-- FEATURED PROJECT -->
 
@@ -210,6 +257,7 @@ cat > portfolio.html <<'EOF'
                  data-category="marketing">
 
             <div class="project-visual visual-purple">
+<div class="visual-overlay"><span>View Case Study →</span></div>
 
                 <div class="visual-label">
                     PERFORMANCE
@@ -276,6 +324,7 @@ cat > portfolio.html <<'EOF'
                  data-category="social">
 
             <div class="project-visual visual-blue">
+<div class="visual-overlay"><span>View Case Study →</span></div>
 
                 <div class="social-phone">
 
@@ -344,6 +393,7 @@ cat > portfolio.html <<'EOF'
                  data-category="web">
 
             <div class="project-visual visual-pink">
+<div class="visual-overlay"><span>View Case Study →</span></div>
 
                 <div class="web-mockup">
 
@@ -403,6 +453,7 @@ cat > portfolio.html <<'EOF'
                  data-category="creative">
 
             <div class="project-visual visual-orange">
+<div class="visual-overlay"><span>View Case Study →</span></div>
 
                 <div class="creative-poster">
 
@@ -459,6 +510,7 @@ cat > portfolio.html <<'EOF'
                  data-category="marketing">
 
             <div class="project-visual visual-green">
+<div class="visual-overlay"><span>View Case Study →</span></div>
 
                 <div class="seo-dashboard">
 
@@ -517,6 +569,7 @@ cat > portfolio.html <<'EOF'
                  data-category="social">
 
             <div class="project-visual visual-dark">
+<div class="visual-overlay"><span>View Case Study →</span></div>
 
                 <div class="reels-stack">
 
@@ -659,59 +712,75 @@ cat > portfolio.html <<'EOF'
 
 </main>
 
-
 <script>
 
+// Scroll progress bar
+const progressBar = document.createElement("div");
+progressBar.className = "scroll-progress";
+document.body.appendChild(progressBar);
+window.addEventListener("scroll", () => {
+    const h = document.documentElement;
+    const scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    progressBar.style.width = scrolled + "%";
+});
+
+
+// Filters with smooth fade
 const filters = document.querySelectorAll(".portfolio-filter");
 const projects = document.querySelectorAll(".professional-project");
 
 filters.forEach(filter => {
-
     filter.addEventListener("click", () => {
-
         filters.forEach(item => item.classList.remove("active"));
         filter.classList.add("active");
 
         const selected = filter.dataset.filter;
 
         projects.forEach(project => {
-
-            if (
-                selected === "all" ||
-                project.dataset.category === selected
-            ) {
-                project.style.display = "";
+            if (selected === "all" || project.dataset.category === selected) {
+                project.classList.remove("hidden-project");
             } else {
-                project.style.display = "none";
+                project.classList.add("hidden-project");
             }
-
         });
-
     });
-
 });
 
 
+// Scroll reveal
 const revealElements = document.querySelectorAll(".reveal");
+const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add("show");
+    });
+}, { threshold: 0.12 });
+revealElements.forEach(el => revealObserver.observe(el));
 
-const revealObserver = new IntersectionObserver(
-    entries => {
 
-        entries.forEach(entry => {
-
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            }
-
-        });
-
-    },
-    { threshold: 0.12 }
-);
-
-revealElements.forEach(element => {
-    revealObserver.observe(element);
-});
+// Animated counters
+const counters = document.querySelectorAll(".counter");
+const counterObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = parseFloat(el.dataset.target);
+            let current = 0;
+            const step = target / 50;
+            const update = () => {
+                current += step;
+                if (current >= target) {
+                    el.textContent = target;
+                } else {
+                    el.textContent = Math.floor(current);
+                    requestAnimationFrame(update);
+                }
+            };
+            update();
+            counterObserver.unobserve(el);
+        }
+    });
+}, { threshold: 0.5 });
+counters.forEach(c => counterObserver.observe(c));
 
 </script>
 
