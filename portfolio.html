@@ -299,16 +299,16 @@ filters.forEach(filter => {
     });
 });
 
-const revealElements = document.querySelectorAll(".reveal");
-const revealObserver = new IntersectionObserver(entries => {
+const portfoliorevealElements = document.querySelectorAll(".reveal");
+const portfoliorevealObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add("show");
     });
 }, { threshold: 0.12 });
-revealElements.forEach(el => revealObserver.observe(el));
+portfolioRevealElements.forEach(el => portfolioRevealObserver.observe(el));
 
-const counters = document.querySelectorAll(".counter");
-const counterObserver = new IntersectionObserver(entries => {
+const portfoliocounters = document.querySelectorAll(".counter");
+const portfoliocounterObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             const el = entry.target;
@@ -325,11 +325,11 @@ const counterObserver = new IntersectionObserver(entries => {
                 }
             };
             update();
-            counterObserver.unobserve(el);
+            portfolioCounterObserver.unobserve(el);
         }
     });
 }, { threshold: 0.5 });
-counters.forEach(c => counterObserver.observe(c));
+portfolioCounters.forEach(c => portfolioCounterObserver.observe(c));
 </script>
 
 <script src="script.js"></script>
